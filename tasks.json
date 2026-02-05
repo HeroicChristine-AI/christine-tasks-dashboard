@@ -1,0 +1,51 @@
+{
+  "tasks": [
+    {
+      "id": "t-1",
+      "owner": "AI",
+      "title": "Check dashboard for topic selections",
+      "description": "Christine will select topics from viral topics dashboard",
+      "status": "pending",
+      "priority": "high",
+      "created": "2026-02-05",
+      "due": "2026-02-06"
+    },
+    {
+      "id": "t-2",
+      "owner": "AI",
+      "title": "Create content package from selected topics",
+      "description": "Write scripts and posts following voice rules",
+      "status": "pending",
+      "priority": "high",
+      "dependsOn": "t-1"
+    },
+    {
+      "id": "t-3",
+      "owner": "Christine",
+      "title": "Review viral topics dashboard",
+      "description": "Select topics for content creation",
+      "status": "pending",
+      "priority": "high",
+      "created": "2026-02-05",
+      "due": "2026-02-06"
+    },
+    {
+      "id": "t-4",
+      "owner": "Christine",
+      "title": "Provide browser access for VidIQ",
+      "description": "Enable OpenClaw browser relay so AI can use VidIQ for YouTube research",
+      "status": "pending",
+      "priority": "medium",
+      "created": "2026-02-05"
+    },
+    {
+      "id": "t-5",
+      "owner": "Christine",
+      "title": "Review AI content package",
+      "description": "Check scripts and posts for voice, remove AI patterns",
+      "status": "pending",
+      "priority": "high",
+      "dependsOn": "t-2"
+    }
+  ]
+}
